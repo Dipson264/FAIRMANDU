@@ -47,7 +47,10 @@
     align-items: center;
     justify-content: center;
     grid-gap: 50px;
-    
+
+}
+.container{
+    margin: auto;
 }
 .hover{
     transition:ease-in 0.2s ;

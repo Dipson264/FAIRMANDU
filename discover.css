@@ -1,0 +1,14 @@
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 50px;
+    height: 500px;
+
+}
+.hover{
+    transition:ease-in 0.2s ;
+}
+.hover:hover{
+  transform: scale(1.03);
+}

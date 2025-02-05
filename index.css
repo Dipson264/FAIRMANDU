@@ -238,6 +238,12 @@ font-weight: 700;
     grid-gap: 50px;
 
 }
+.hover{
+    transition:ease-in 0.2s ;
+}
+.hover:hover{
+  transform: scale(1.03);
+}
 @media (max-width: 1024px) {
     .cardbox{
         display: flex;

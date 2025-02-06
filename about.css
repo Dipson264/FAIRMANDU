@@ -69,6 +69,16 @@
     background-position: center; 
     background-repeat: no-repeat;
 }
+.photo6{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background: url(./asstets/siddhantimg.jpg) no-repeat;
+    background-size: cover; 
+    border-radius: 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
 .photo3{
     margin: auto;
     width: 200px;
@@ -93,7 +103,7 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    background: url(./asstets/siddhantimg.jpg) no-repeat;
+    background: url(./asstets/Bikash.jpg) no-repeat;
     background-size: cover; 
     border-radius: 500px;
     background-position: center; 

@@ -1,115 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fairmandu - Latest Price Changes</title>
-    <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="Header">
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
-          <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-              <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                  <!-- <img src="/Asset/Main/Fair logo.png" class="h-8" alt="Fairmandu logo" /> -->
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Fairmandu</span>
-              </a>
-              <button data-collapse-toggle="navbar-default" type="button"
-                  class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                  aria-controls="navbar-default" aria-expanded="false">
-                  <span class="sr-only">Open main menu</span>
-                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                      viewBox="0 0 17 14">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M1 1h15M1 7h15M1 13h15" />
-                  </svg>
-              </button>
-              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                  <ul
-                      class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                      <li>
-                          <a href="./index.html"
-                              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
-                      </li>
-                      <li>
-                          <a href="./about.html"
-                              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About us</a>
-                      </li>
-                      <li>
-                          <a href="./discover.html"
-                              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Discover
-                              Places</a>
-                      </li>
-                      <li>
-                          <a href="./fairprice.html"
-                              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Fair
-                              Prices</a>
-                      </li>
-                      <li>
-                          <a href="/tips&scams.html"
-                              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tips
-                              & Scams</a>
-                      </li>
-                      <li>
-                          <a href="./contactus.html"
-                              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact
-                              Us</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
-  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fairmandu - Latest Price Changes</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="Header">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <!-- <img src="/Asset/Main/Fair logo.png" class="h-8" alt="Fairmandu logo" /> -->
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Fairmandu</span>
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="./index.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+            </li>
+
+            <li>
+              <a href="./discover.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Discover
+                Places</a>
+            </li>
+            <li>
+              <a href="./fairprice.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Fair
+                Prices</a>
+            </li>
+            <li>
+              <a href="/tips&scams.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tips
+                & Scams</a>
+            </li>
+            <li>
+              <a href="./about.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
+                us</a>
+            </li>
+            <li>
+              <a href="./contactus.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact
+                Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
   </div>
 
-    <!-- -------image-------- -->
-    <div class="relative h-56 overflow-hidden md:h-96">
-      <!-- Background Image with lighter blur -->
-      <img
-        src="/asstets/world-heritage-sites-of-nepal (1).jpg"
-        alt="img"
-        class="absolute inset-0 w-full h-full object-cover"
-        style="filter: blur(0.18rem)"
-      />
+  <!-- -------image-------- -->
+  <div class="relative h-56 overflow-hidden md:h-96">
+    <!-- Background Image with lighter blur -->
+    <img src="/asstets/world-heritage-sites-of-nepal (1).jpg" alt="img"
+      class="absolute inset-0 w-full h-full object-cover" style="filter: blur(0.18rem)" />
 
-      <!-- Centered Text -->
-      <div class="absolute inset-0 flex items-center justify-center">
-        <h2
-          class="text-4xl font-bold text-white text-center bg-black bg-opacity-50 p-4"
-        >
-          Pay just right.
-        </h2>
-      </div>
+    <!-- Centered Text -->
+    <div class="absolute inset-0 flex items-center justify-center">
+      <h2 class="text-4xl font-bold text-white text-center bg-black bg-opacity-50 p-4">
+        Pay just right.
+      </h2>
     </div>
-    <!--=======Start application section===============-->
-    <div style="margin-top: 20px; text-align: center" class="container">
-      <h1
-        style="
+  </div>
+  <!--=======Start application section===============-->
+  <div style="margin-top: 20px; text-align: center" class="container">
+    <h1 style="
           font-size: 1.5rem;
           font-weight: 650;
           font-family:Trebuchet MS;
           margin-bottom: 10px;
-        "
-      >
-        PAY RIGHT:
-      </h1>
-      <div class="cardbox">
-        <div class="hover">
-        <div 
-            style="height: 550px;"    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-        >
+        ">
+      PAY RIGHT:
+    </h1>
+    <div class="cardbox">
+      <div class="hover">
+        <div style="height: 550px;"
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="./asstets/indrive.png" alt="" />
           </a>
           <div class="p-5">
             <a href="#">
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Indrive
               </h5>
             </a>
@@ -121,43 +111,27 @@
               largest ridesharing and taxi app worldwide by downloads. The
               company was officially launched in 2013.
             </p>
-            <a
-              target="_blank"
-              href="https://indrive.com/"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
+            <a target="_blank" href="https://indrive.com/"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Read more
-              <svg
-                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
             </a>
           </div>
         </div>
-        </div>
-        <div class="hover">
+      </div>
+      <div class="hover">
         <div
-          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-        >
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="./asstets/pathao.jpg" alt="" />
           </a>
           <div class="p-5">
             <a href="#">
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 pathao
               </h5>
             </a>
@@ -169,43 +143,27 @@
               services are currently available in Dhaka, Chittagong, Sylhet and
               Nepal.
             </p>
-            <a
-              href="https://pathao.com/np/"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
+            <a href="https://pathao.com/np/"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Read more
-              <svg
-                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
             </a>
           </div>
         </div>
-        </div>
-        <div class="hover">
-        <div
-        style="height: 550px;"
-          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 size-max dark:border-gray-700"
-        >
+      </div>
+      <div class="hover">
+        <div style="height: 550px;"
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 size-max dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="./asstets/foodmandu.png" alt="" />
           </a>
           <div class="p-5">
             <a href="#">
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 foodmandu
               </h5>
             </a>
@@ -215,353 +173,341 @@
               Lalitpur, and Bhaktapur, offering diverse cuisine options through
               its website and mobile app.
             </p>
-            <a
-            style="margin-top: 1.3rem;"
-              href="https://indrive.com/"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
+            <a style="margin-top: 1.3rem;" href="https://indrive.com/"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Read more
-              <svg
-                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
             </a>
           </div>
         </div>
-        </div>
       </div>
     </div>
-    <!--=======Start application section===============-->
-    <!--=========Text section===============-->
-    <div class="container">
-      <div style="margin: 30px 0px 30px 0px" class="textbox">
-        <h1 style="margin-left: 5px">Tips:</h1>
+  </div>
+  <!--=======Start application section===============-->
+  <!--=========Text section===============-->
+  <div class="container">
+    <div style="margin: 30px 0px 30px 0px" class="textbox">
+      <h1 style="margin-left: 5px">Tips:</h1>
+      <p>
+        Kathmandu, the vibrant capital of Nepal, is a gateway to the Himalayas
+        and a cultural hub filled with ancient temples, bustling markets, and
+        welcoming locals. However, like many popular tourist destinations, it
+        is not free from scams and fraud targeting unsuspecting travelers.
+        Tourists visiting areas like Thamel, Durbar Square, Swayambhunath, and
+        the airport often encounter various scams ranging from overpriced
+        services and fake guides to currency fraud and transport overcharging.
+        Common scams include taxi drivers refusing to use meters, shopkeepers
+        inflating prices, fake trekking guides offering overpriced services,
+        and scammers posing as charity workers seeking "donations." Some
+        tourists also fall victim to ATM fraud, counterfeit money exchanges,
+        and aggressive street vendors tricking them into unwanted purchases.
+      </p>
+    </div>
+  </div>
+  <!--=========Text price section===============-->
+  <!--=========Start Explanation section===============-->
+  <div class="container">
+    <div class="explanationbox1">
+      <div class="explanationbox">
+        <h1>1. Transportation:</h1>
+        <br />
         <p>
-          Kathmandu, the vibrant capital of Nepal, is a gateway to the Himalayas
-          and a cultural hub filled with ancient temples, bustling markets, and
-          welcoming locals. However, like many popular tourist destinations, it
-          is not free from scams and fraud targeting unsuspecting travelers.
-          Tourists visiting areas like Thamel, Durbar Square, Swayambhunath, and
-          the airport often encounter various scams ranging from overpriced
-          services and fake guides to currency fraud and transport overcharging.
-          Common scams include taxi drivers refusing to use meters, shopkeepers
-          inflating prices, fake trekking guides offering overpriced services,
-          and scammers posing as charity workers seeking "donations." Some
-          tourists also fall victim to ATM fraud, counterfeit money exchanges,
-          and aggressive street vendors tricking them into unwanted purchases.
+          In tourist areas like Thamel, taxi drivers often try to take
+          advantage of tourists by refusing to use the meter and demanding a
+          fixed, higher fare. Rickshaw drivers also charge tourists more than
+          locals. This can be a problem especially if you're not familiar with
+          the typical pricing in the area. Similarly, tourist buses that go to
+          places like Pokhara or Chitwan may include hidden or unnecessary
+          fees that locals don't have to pay.
         </p>
+        <br />
+        <p>
+          Why this happens: The reason these drivers or businesses charge
+          tourists more is because they assume tourists don’t know the local
+          fare standards. They take advantage of the lack of knowledge and
+          offer prices that are much higher than usual.
+        </p>
+        <div class="imgbox"></div>
+      </div>
+      <div class="explanationbox">
+        <h1>2. Accommodations:</h1>
+        <p>
+          Hotels, guesthouses, and hostels in popular tourist spots tend to
+          charge higher rates for foreigners. They may also add unexpected
+          hidden charges, such as service fees, taxes, or extra charges for
+          things like breakfast or Wi-Fi, which are not always disclosed at
+          the time of booking. Tip: Book online in advance to compare prices
+          and confirm if the quoted rate includes all taxes.
+        </p>
+        <br />
+        <p>
+          Why this happens: Some hotels and guesthouses see tourists as an
+          opportunity to earn more money, especially in high-demand areas like
+          Thamel, Durbar Square, or near the airport. They know tourists might
+          not compare prices as thoroughly as locals.
+        </p>
+        <div class="imgbox1"></div>
+      </div>
+      <div class="explanationbox">
+        <h1>3. Restaurants and Cafés:</h1>
+        <p>
+          Restaurants located in busy tourist spots, such as Thamel, Durbar
+          Square, or Patan, usually have inflated prices for foreigners. This
+          could mean paying much higher prices for basic food items or drinks.
+          For instance, a glass of water, a simple meal, or a soft drink can
+          be significantly overpriced in tourist-heavy areas compared to what
+          locals pay at smaller eateries.
+        </p>
+        <br />
+
+        <p>
+          Why this happens: Restaurants near tourist attractions know that
+          tourists are willing to pay a little extra for the convenience of
+          being close to popular spots. They also assume tourists won’t mind
+          paying higher prices.
+        </p>
+        <div class="imgbox2"></div>
+      </div>
+      <div class="explanationbox">
+        <h1>4. Souvenirs and Handicrafts:</h1>
+        <p>
+          Souvenir shops, especially those selling traditional goods like
+          pashminas, woolen scarves, jewelry, or singing bowls, often mark up
+          their prices for tourists. While bargaining is expected, tourists
+          typically end up paying more than locals would for the same items.
+          This happens because shopkeepers know tourists may not know the real
+          value of these items.
+        </p>
+        <br />
+        <p>
+          Why this happens: Souvenir shops in tourist areas focus on
+          attracting tourists, and often raise their prices to maximize
+          profit, knowing that tourists may not know the standard prices. Even
+          if you negotiate, the price might still be higher than what a local
+          would pay.
+        </p>
+        <div class="imgbox3"></div>
+      </div>
+      <div class="explanationbox">
+        <h1>5. Guided Tours and Activities:</h1>
+        <p>
+          Trekking agencies, cultural tour operators, and adventure companies
+          offering activities like paragliding, mountain flights, or cultural
+          walks often charge higher prices for tourists. Some might also add
+          additional charges for "permits" or other fees, which may not be
+          fully explained beforehand.
+        </p>
+        <br />
+        <p>
+          Why this happens: Tour operators know tourists are less likely to
+          shop around for different prices or may not be aware of the actual
+          cost of a particular activity. Many companies also take advantage of
+          the fact that tourists are often willing to pay more for the
+          convenience of booking a tour.
+        </p>
+        <div class="imgbox4"></div>
+      </div>
+      <div class="explanationbox">
+        <h1>6. Entry Fees:</h1>
+        <p>
+          Most historical or cultural sites in Nepal, such as Swayambhunath
+          (Monkey Temple), Bhaktapur Durbar Square, or other popular spots,
+          have different entry fees for locals and foreigners. The entry fee
+          for a local might be very low, but foreigners are often charged much
+          higher amounts. In addition, some unofficial guides or street
+          vendors may approach tourists and try to ask for extra money under
+          the guise of offering a "tour" or "service."
+        </p>
+        <br />
+        <p>
+          Why this happens: Higher entry fees for tourists are often used to
+          generate extra revenue from the tourism industry. The unofficial
+          guides or vendors see tourists as an easy source of extra income,
+          which leads them to demand more money.
+        </p>
+        <div class="imgbox6"></div>
+      </div>
+      <div class="explanationbox">
+        <h1>7. Shopping (Clothes, Spices, and Electronics):</h1>
+        <p>
+          Street vendors and small shops, especially those near popular
+          tourist sites like Durbar Square, often charge tourists higher
+          prices for items like clothing, spices, or electronics. These
+          vendors assume that tourists won't know the fair market value and
+          will pay more. Sometimes, even small items like snacks or drinks can
+          be priced at a premium.
+        </p>
+        <br />
+        <p>
+          Why this happens: The primary reason is that tourist areas often
+          attract people who aren’t familiar with the local pricing, so
+          vendors take advantage of that lack of knowledge. These vendors may
+          also increase prices to cover the costs of operating in busy,
+          high-demand locations.
+        </p>
+        <div class="imgbox7"></div>
+      </div>
+      <div class="explanationbox">
+        <h1>8. Adventure and Trekking Equipment:</h1>
+        <p>
+          Renting or buying trekking gear can come with inflated costs near
+          tourist hubs or trekking starting points. Tips for Avoiding
+          Overpricing: Use apps like Pathao or Taxis on Call for fair
+          transport pricing. Ask locals for price ranges before making
+          purchases. Avoid buying from vendors or shops near major tourist
+          attractions. Bargain respectfully but firmly, as haggling is
+          expected in most markets. Research online platforms offering
+          pre-quoted pricing for services or items.
+        </p>
+        <br />
+        <p>
+          Why this happens: Trekking businesses in high-traffic areas know
+          that tourists might not shop around for better deals and might need
+          the gear at the last minute. As a result, they charge more for
+          convenience and proximity.
+        </p>
+        <div class="imgbox8"></div>
       </div>
     </div>
-    <!--=========Text price section===============-->
-    <!--=========Start Explanation section===============-->
-    <div class="container">
-      <div class="explanationbox1">
-        <div class="explanationbox">
-          <h1>1. Transportation:</h1>
-          <br />
-          <p>
-            In tourist areas like Thamel, taxi drivers often try to take
-            advantage of tourists by refusing to use the meter and demanding a
-            fixed, higher fare. Rickshaw drivers also charge tourists more than
-            locals. This can be a problem especially if you're not familiar with
-            the typical pricing in the area. Similarly, tourist buses that go to
-            places like Pokhara or Chitwan may include hidden or unnecessary
-            fees that locals don't have to pay.
-          </p>
-          <br />
-          <p>
-            Why this happens: The reason these drivers or businesses charge
-            tourists more is because they assume tourists don’t know the local
-            fare standards. They take advantage of the lack of knowledge and
-            offer prices that are much higher than usual.
-          </p>
-          <div class="imgbox"></div>
+  </div>
+  <!--=========End Explanation section===============-->
+  <section style="margin-top: 20px" class="latestbox">
+    <h2>Latest Price Changes</h2>
+    <ol class="price-list">
+      <li style="background: rgba(97, 94, 94, 0.297)" class="price-item">
+        <div style="font-weight: bold; color: white" class="item-text">
+          Name of Commodity
         </div>
-        <div class="explanationbox">
-          <h1>2. Accommodations:</h1>
-          <p>
-            Hotels, guesthouses, and hostels in popular tourist spots tend to
-            charge higher rates for foreigners. They may also add unexpected
-            hidden charges, such as service fees, taxes, or extra charges for
-            things like breakfast or Wi-Fi, which are not always disclosed at
-            the time of booking. Tip: Book online in advance to compare prices
-            and confirm if the quoted rate includes all taxes.
-          </p>
-          <br />
-          <p>
-            Why this happens: Some hotels and guesthouses see tourists as an
-            opportunity to earn more money, especially in high-demand areas like
-            Thamel, Durbar Square, or near the airport. They know tourists might
-            not compare prices as thoroughly as locals.
-          </p>
-          <div class="imgbox1"></div>
+        <div style="font-weight: bold; color: white" class="category">
+          Category
         </div>
-        <div class="explanationbox">
-          <h1>3. Restaurants and Cafés:</h1>
-          <p>
-            Restaurants located in busy tourist spots, such as Thamel, Durbar
-            Square, or Patan, usually have inflated prices for foreigners. This
-            could mean paying much higher prices for basic food items or drinks.
-            For instance, a glass of water, a simple meal, or a soft drink can
-            be significantly overpriced in tourist-heavy areas compared to what
-            locals pay at smaller eateries.
-          </p>
-          <br />
+        <div style="font-weight: bold; color: white" class="price">
+          Average Price(NPR)
+        </div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Local Bus (Within City)</div>
+        <div class="category">Transport</div>
+        <div class="price">20-50 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">National Park Entry Fee (varies by park)</div>
+        <div class="category">Utilities</div>
+        <div class="price">3,000 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Petrol (per liter)</div>
+        <div class="category">Fuel</div>
+        <div class="price">175 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Diesel (per liter)</div>
+        <div class="category">Fuel</div>
+        <div class="price">155 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Chicken Meat (per kg)</div>
+        <div class="category">Food</div>
+        <div class="price">450 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Eggs (per dozen)</div>
+        <div class="category">Food</div>
+        <div class="price">230 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Rice (per kg)</div>
+        <div class="category">Food</div>
+        <div class="price">120 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Cooking Gas (per cylinder)</div>
+        <div class="category">Utilities</div>
+        <div class="price">1,800 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Internet (monthly, basic plan)</div>
+        <div class="category">Utilities</div>
+        <div class="price">1,500 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Milk (per liter)</div>
+        <div class="category">Food</div>
+        <div class="price">100 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Movie Ticket (Regular)</div>
+        <div class="category">Entertainment</div>
+        <div class="price">350 NPR</div>
+      </li>
+      <li class="price-item">
+        <div class="item-text">Taxi Fare (per km)</div>
+        <div class="category">Transport</div>
+        <div class="price">Rs. 50 NPR</div>
+      </li>
+    </ol>
+  </section>
 
-          <p>
-            Why this happens: Restaurants near tourist attractions know that
-            tourists are willing to pay a little extra for the convenience of
-            being close to popular spots. They also assume tourists won’t mind
-            paying higher prices.
-          </p>
-          <div class="imgbox2"></div>
+  <!--=========Start footer section===============-->
+  <!-- footer  -->
+  <div class="" style="background-color: #575757; ">
+    <div class="max-w-screen-lg px-4 sm:px-6  sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+      <div class="p-5">
+        <h3 class="font-bold text-xl text-white ">Fairmandu</h3><br>
+        <p class="font-medium text-xs text-white ">© 2025 Fairmandu | All Rights Reserved</p>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase font-bold text-white ">Quick links</div>
+        <a class="my-3 block text-white " href="/fairprice.html ">Pay Just Right<span class=" text-xs p-1"></span></a>
+        <a class="my-3 block text-white " href="/discover.html">Explore Like a Local<span
+            class=" text-white text-xs p-1"></span></a>
+        <a class="my-3 block text-white " href="/tips&scams.html">Travel with Confidence<span
+            class="text-xs p-1"></span></a>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-white  font-bold">Find us</div>
+        <!-- Map with CSS for aspect ratio -->
+        <div class="map-container">
+          <iframe class="map-frame py-4"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11880.435909007998!2d85.31818744754804!3d27.714978917382755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190f4a71326b%3A0x1e54c69290d012c6!2z4KSV4KS_4KS34KWN4KSfIOCkleCksuClh-CknCDgpKTgpKXgpL4g4KSu4KS-LuCkteCkvy4!5e0!3m2!1sen!2snp!4v1738337094769!5m2!1sen!2snp"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="explanationbox">
-          <h1>4. Souvenirs and Handicrafts:</h1>
-          <p>
-            Souvenir shops, especially those selling traditional goods like
-            pashminas, woolen scarves, jewelry, or singing bowls, often mark up
-            their prices for tourists. While bargaining is expected, tourists
-            typically end up paying more than locals would for the same items.
-            This happens because shopkeepers know tourists may not know the real
-            value of these items.
-          </p>
-          <br />
-          <p>
-            Why this happens: Souvenir shops in tourist areas focus on
-            attracting tourists, and often raise their prices to maximize
-            profit, knowing that tourists may not know the standard prices. Even
-            if you negotiate, the price might still be higher than what a local
-            would pay.
-          </p>
-          <div class="imgbox3"></div>
-        </div>
-        <div class="explanationbox">
-          <h1>5. Guided Tours and Activities:</h1>
-          <p>
-            Trekking agencies, cultural tour operators, and adventure companies
-            offering activities like paragliding, mountain flights, or cultural
-            walks often charge higher prices for tourists. Some might also add
-            additional charges for "permits" or other fees, which may not be
-            fully explained beforehand.
-          </p>
-          <br />
-          <p>
-            Why this happens: Tour operators know tourists are less likely to
-            shop around for different prices or may not be aware of the actual
-            cost of a particular activity. Many companies also take advantage of
-            the fact that tourists are often willing to pay more for the
-            convenience of booking a tour.
-          </p>
-          <div class="imgbox4"></div>
-        </div>
-        <div class="explanationbox">
-          <h1>6. Entry Fees:</h1>
-          <p>
-            Most historical or cultural sites in Nepal, such as Swayambhunath
-            (Monkey Temple), Bhaktapur Durbar Square, or other popular spots,
-            have different entry fees for locals and foreigners. The entry fee
-            for a local might be very low, but foreigners are often charged much
-            higher amounts. In addition, some unofficial guides or street
-            vendors may approach tourists and try to ask for extra money under
-            the guise of offering a "tour" or "service."
-          </p>
-          <br />
-          <p>
-            Why this happens: Higher entry fees for tourists are often used to
-            generate extra revenue from the tourism industry. The unofficial
-            guides or vendors see tourists as an easy source of extra income,
-            which leads them to demand more money.
-          </p>
-          <div class="imgbox6"></div>
-        </div>
-        <div class="explanationbox">
-          <h1>7. Shopping (Clothes, Spices, and Electronics):</h1>
-          <p>
-            Street vendors and small shops, especially those near popular
-            tourist sites like Durbar Square, often charge tourists higher
-            prices for items like clothing, spices, or electronics. These
-            vendors assume that tourists won't know the fair market value and
-            will pay more. Sometimes, even small items like snacks or drinks can
-            be priced at a premium.
-          </p>
-          <br />
-          <p>
-            Why this happens: The primary reason is that tourist areas often
-            attract people who aren’t familiar with the local pricing, so
-            vendors take advantage of that lack of knowledge. These vendors may
-            also increase prices to cover the costs of operating in busy,
-            high-demand locations.
-          </p>
-          <div class="imgbox7"></div>
-        </div>
-        <div class="explanationbox">
-          <h1>8. Adventure and Trekking Equipment:</h1>
-          <p>
-            Renting or buying trekking gear can come with inflated costs near
-            tourist hubs or trekking starting points. Tips for Avoiding
-            Overpricing: Use apps like Pathao or Taxis on Call for fair
-            transport pricing. Ask locals for price ranges before making
-            purchases. Avoid buying from vendors or shops near major tourist
-            attractions. Bargain respectfully but firmly, as haggling is
-            expected in most markets. Research online platforms offering
-            pre-quoted pricing for services or items.
-          </p>
-          <br />
-          <p>
-            Why this happens: Trekking businesses in high-traffic areas know
-            that tourists might not shop around for better deals and might need
-            the gear at the last minute. As a result, they charge more for
-            convenience and proximity.
-          </p>
-          <div class="imgbox8"></div>
-        </div>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-white  font-bold">Contact us</div>
+        <a class="my-3 block text-white " href="/#">KIST, Kamalpokhari Marga, Kathmandu
+          <span class="text-xs p-1"></span></a>
+        <a class="my-3 block text-white " href="/#">@dipson264@gmail.com
+          <span class=" text-xs p-1"></span></a>
       </div>
     </div>
-    <!--=========End Explanation section===============-->
-    <section style="margin-top: 20px" class="latestbox">
-      <h2>Latest Price Changes</h2>
-      <ol class="price-list">
-        <li style="background: rgba(97, 94, 94, 0.297)" class="price-item">
-          <div style="font-weight: bold; color: white" class="item-text">
-            Name of Commodity
-          </div>
-          <div style="font-weight: bold; color: white" class="category">
-            Category
-          </div>
-          <div style="font-weight: bold; color: white" class="price">
-            Average Price(NPR)
-          </div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Local Bus (Within City)</div>
-          <div class="category">Transport</div>
-          <div class="price">20-50 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">National Park Entry Fee (varies by park)</div>
-          <div class="category">Utilities</div>
-          <div class="price">3,000 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Petrol (per liter)</div>
-          <div class="category">Fuel</div>
-          <div class="price">175 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Diesel (per liter)</div>
-          <div class="category">Fuel</div>
-          <div class="price">155 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Chicken Meat (per kg)</div>
-          <div class="category">Food</div>
-          <div class="price">450 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Eggs (per dozen)</div>
-          <div class="category">Food</div>
-          <div class="price">230 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Rice (per kg)</div>
-          <div class="category">Food</div>
-          <div class="price">120 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Cooking Gas (per cylinder)</div>
-          <div class="category">Utilities</div>
-          <div class="price">1,800 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Internet (monthly, basic plan)</div>
-          <div class="category">Utilities</div>
-          <div class="price">1,500 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Milk (per liter)</div>
-          <div class="category">Food</div>
-          <div class="price">100 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Movie Ticket (Regular)</div>
-          <div class="category">Entertainment</div>
-          <div class="price">350 NPR</div>
-        </li>
-        <li class="price-item">
-          <div class="item-text">Taxi Fare (per km)</div>
-          <div class="category">Transport</div>
-          <div class="price">Rs. 50 NPR</div>
-        </li>
-      </ol>
-    </section>
-
-    <!--=========Start footer section===============-->
-    <!-- footer  -->
-    <div class="" style="background-color: #575757; ">
-      <div class="max-w-screen-lg px-4 sm:px-6  sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
-          <div class="p-5">
-              <h3 class="font-bold text-xl text-white ">Fairmandu</h3><br>
-              <p class="font-medium text-xs text-white ">© 2025 Fairmandu | All Rights Reserved</p>
-          </div>
-          <div class="p-5">
-              <div class="text-sm uppercase font-bold text-white ">Quick links</div>
-              <a class="my-3 block text-white " href="/fairprice.html ">Pay Just Right<span
-                      class=" text-xs p-1"></span></a>
-              <a class="my-3 block text-white " href="/discover.html">Explore Like a Local<span
-                      class=" text-white text-xs p-1"></span></a>
-              <a class="my-3 block text-white " href="/tips&scams.html">Travel with Confidence<span
-                      class="text-xs p-1"></span></a>
-          </div>
-          <div class="p-5">
-              <div class="text-sm uppercase text-white  font-bold">Find us</div>
-              <!-- Map with CSS for aspect ratio -->
-              <div class="map-container">
-                  <iframe class="map-frame py-4"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11880.435909007998!2d85.31818744754804!3d27.714978917382755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190f4a71326b%3A0x1e54c69290d012c6!2z4KSV4KS_4KS34KWN4KSfIOCkleCksuClh-CknCDgpKTgpKXgpL4g4KSu4KS-LuCkteCkvy4!5e0!3m2!1sen!2snp!4v1738337094769!5m2!1sen!2snp"
-                      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-          </div>
-          <div class="p-5">
-              <div class="text-sm uppercase text-white  font-bold">Contact us</div>
-              <a class="my-3 block text-white " href="/#">KIST, Kamalpokhari Marga, Kathmandu
-                  <span class="text-xs p-1"></span></a>
-              <a class="my-3 block text-white " href="/#">@dipson264@gmail.com
-                  <span class=" text-xs p-1"></span></a>
-          </div>
-      </div>
   </div>
 
-    <style>
-      /* Set a fixed aspect ratio (16:9) for the map container */
-      .map-container {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio */
-        height: 0;
-      }
+  <style>
+    /* Set a fixed aspect ratio (16:9) for the map container */
+    .map-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      /* 16:9 aspect ratio */
+      height: 0;
+    }
 
-      .map-frame {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-      }
-    </style>
-    <!--=========End Footer section===============-->
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
-  </body>
+    .map-frame {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+  <!--=========End Footer section===============-->
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+</body>
+
 </html>

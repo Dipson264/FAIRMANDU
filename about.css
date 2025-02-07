@@ -103,7 +103,7 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    background: url(./asstets/bikash.jpg) no-repeat;
+    background: url(/asstets/Bikash.jpg) no-repeat;
     background-size: cover; 
     border-radius: 500px;
     background-position: center; 
